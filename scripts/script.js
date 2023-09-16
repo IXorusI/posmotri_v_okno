@@ -21,7 +21,7 @@ const moreButtonTmp = document.querySelector('.more-button-template');
 // Нужен для работы с переключателями
 let cardsOnPageState = [];
 
-// Первая загрузка ✅
+// Первая загрузка ✅1 123
 
 showPreloader(preloaderTmp, videoContainer);
 showPreloader(preloaderTmp, cardsContainer);
