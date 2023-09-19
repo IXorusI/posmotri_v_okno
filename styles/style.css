@@ -11,16 +11,14 @@ html {
 .page {
   display: flex;
   inline-size: 1200px;
-  min-block-size: 800px;
-  /* block-size: 100%;
-  max-block-size: 800px; */
+  block-size: 100%;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .visually-hidden {
@@ -59,15 +57,16 @@ ol {
 
 .content {
   /* margin: 133px 30px; */
-  block-size: 100%;
+  /* block-size: 100%; */
   display: flex;
   align-items: flex-end;
+  gap: 30px;
 }
 
 .title {
   max-inline-size: 260px;
   inline-size: 100%;
-  max-block-size: 210px;
+  block-size: 100%;
   color: #FFF;
   font-family: 'Oswald', 'Arial', sans-serif;
   font-size: 75px;
@@ -114,12 +113,16 @@ ol {
 }
 
 .content__details {
+  display: flex;
+  flex-direction: column;
+  min-inline-size: 401px;
   inline-size: 100%;
+  block-size: 100%;
 }
 
 .content__list {
   position: relative;
-  max-block-size: 298px;
+  block-size: 298px;
   overflow: auto;
   display: flex;
   flex-direction: column;
@@ -138,9 +141,9 @@ ol {
 
 .content__card-link {
   display: block;
-  inline-size: 100%;
   block-size: 100%;
   text-decoration: none;
+  margin: 2px;
 }
 
 .content__card-link:hover {
@@ -178,7 +181,6 @@ ol {
   max-inline-size: 711px;
   inline-size: 711px;
   block-size: 100%;
-  margin-inline-end: 30px;
 }
 
 .result__video {
@@ -188,9 +190,10 @@ ol {
 }
 
 .result__video-container {
+  display: flex;
   position: relative;
   inline-size: 711px;
-  block-size: 400px;
+  block-size: 386px;
   margin-block-end: 16px;
 }
 
@@ -332,6 +335,7 @@ ol {
   font-weight: 700;
   line-height: 100%; /* 30px */
   text-transform: uppercase;
+  margin: 2px 0 0 2px;
 }
 
 .content__video-card-description {
@@ -340,6 +344,7 @@ ol {
   font-style: normal;
   font-weight: 400;
   line-height: 16.2px;
+  margin: 2px 0 0 2px;
 }
 
 
