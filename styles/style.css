@@ -116,7 +116,6 @@ ol {
 .content__details {
   display: flex;
   flex-direction: column;
-  min-inline-size: 401px;
   inline-size: 100%;
   block-size: 100%;
 }
