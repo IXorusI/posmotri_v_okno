@@ -59,7 +59,8 @@ ol {
   /* margin: 133px 30px; */
   /* block-size: 100%; */
   display: flex;
-  inline-size: 1140px;
+  max-inline-size: 1140px;
+  inline-size: 100%;
   align-items: flex-end;
   gap: 30px;
 }
@@ -317,13 +318,12 @@ ol {
 
 .content__video-card {
   display: flex;
-  align-items: start;
+  justify-content: space-between;
 }
 
 .content__video-card-description-container {
   display: flex;
   flex-direction: column;
-  inline-size: 100%;
   color: #fff;
   gap: 6px;
 }
@@ -346,16 +346,4 @@ ol {
   line-height: 16.2px;
   margin-left: 2px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
